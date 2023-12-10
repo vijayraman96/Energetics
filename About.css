@@ -1,0 +1,13 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}@font-face {
+  font-family: 'FontsFree-Net-SFProText-Semibold-1';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/FontsFree-Net-SFProText-Semibold-1.ttf);
+}@font-face {
+  font-family: 'FontsFree-Net-SFProText-Regular-1';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/FontsFree-Net-SFProText-Regular-1.ttf);
+}
