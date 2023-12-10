@@ -75,6 +75,9 @@ header {
   transform: translateY(0);
   transition: transform 500ms ease-in-out, top 500ms ease-in-out; 
 }
+.u-nav-item a {
+  color: #fff !important;
+}
 
 header.animateUP {
   transform: translateY(-82px);
