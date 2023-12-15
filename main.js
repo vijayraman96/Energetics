@@ -6,6 +6,7 @@ $(document).ready(function(){
           // Add the 'scrolled' class to the header
           $('header').addClass('animateUP');
           $('.secondary-header-div').addClass('animateUp2');
+          $('.header1').css({'backgroundColor': 'rgba(233, 233, 233, 0.7)'})
         } else {
           // Remove the 'scrolled' class if the scroll position is less than 500px
           $('header').removeClass('animateUP');

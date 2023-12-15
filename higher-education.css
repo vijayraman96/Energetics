@@ -6,12 +6,13 @@
 .u-section-1 .u-sheet-1 {
   min-height: 1136px;
 }
-/* header {
+header {
   position: fixed !important;
   backdrop-filter: blur(8px);
   transform: translateY(0);
-  transition: transform 500ms ease-in-out, top 500ms ease-in-out;  */
-/* } */
+  transition: transform 500ms ease-in-out, top 500ms ease-in-out; 
+  display:none;
+}
 .u-nav-item a {
   color: #fff !important;
 }
@@ -38,7 +39,7 @@ header.animateUP {
 }
 .secondary-header-div {
   position: fixed;
-  top: 100px;
+  top: 70px;
   left: 0;
   width: 100%;
   height: 130px;
@@ -66,6 +67,7 @@ header.animateUP {
   /* position: absolute; */
   top: 20px;
 }
+
 @media (max-width: 1399px) {
   .u-section-1 .u-sheet-1 {
     min-height: 981px;
@@ -796,6 +798,7 @@ header.animateUP {
   }
 
   .u-section-4 .u-text-4 {
+    margin-top: 20px;
     margin-right: 39px;
     margin-left: 150px;
   }
@@ -2607,25 +2610,25 @@ header.animateUP {
 
 @media (max-width: 575px) {
   .u-section-9 .u-sheet-1 {
-    min-height: 1395px;
+    min-height: 973px;
   }
 
   .u-section-9 .u-list-1 {
     margin-top: 132px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-9 .u-repeater-1 {
-    min-height: 1263px;
+    min-height: 831px;
   }
 
   .u-section-9 .u-group-1 {
     margin-top: 7px;
-    margin-bottom: -176px;
-    min-height: 1428px;
+    margin-bottom: 0;
+    min-height: 770px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -2658,8 +2661,8 @@ header.animateUP {
 
   .u-section-9 .u-group-2 {
     margin-top: 7px;
-    margin-bottom: -176px;
-    min-height: 1428px;
+    margin-bottom: 0;
+    min-height: 770px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -3395,13 +3398,13 @@ header.animateUP {
 
   .u-section-11 .u-text-1 {
     width: 269px;
-    margin-top: 105px;
-    margin-left: 99px;
-    margin-right: 78px;
+    margin-top: 94px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-11 .u-text-2 {
-    margin-top: 11px;
+    margin-top: 22px;
     margin-right: 0;
   }
 
