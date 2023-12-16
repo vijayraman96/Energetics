@@ -11,12 +11,13 @@ $(document).ready(function(){
           // Remove the 'scrolled' class if the scroll position is less than 500px
           $('header').removeClass('animateUP');
           $('.secondary-header-div').removeClass('animateUp2');
+          $('.header1').css({'backgroundColor': 'rgba(233, 233, 233, 0.7)'})
         }
-        // if ($(this).scrollTop() >= 800) {
-        //   $('.secondary-header-div-a').css({color: '#000'})
-        //  } else {
-        //   $('.secondary-header-div-a').css({color: '#fff'})
-        //  }
+        if ($(this).scrollTop() >= 800) {
+          $('.secondary-header-div-a').css({color: '#000'})
+         } else {
+          $('.secondary-header-div-a').css({color: '#fff'})
+         }
       });
 
   });

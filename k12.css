@@ -76,7 +76,8 @@ header.animateUP {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(233, 233, 233, 0.2);
+  /* background-color: red; */
   backdrop-filter: blur(13px);
   border-radius: 16px;
 }
@@ -90,7 +91,7 @@ header.animateUP {
   transition: top 500ms ease-in-out
 }
 .secondary-header-div-a {
-  color: #000;
+  color: #fff;
   transition: transform 200ms ease-in-out; 
   font-weight: 700;
 }
