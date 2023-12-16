@@ -47,7 +47,7 @@ header.animateUP {
   transition: top 500ms ease-in-out
 }
 .secondary-header-div-a {
-  color: #fff;
+  color: #000;
   transition: transform 200ms ease-in-out; 
   font-weight: 700;
 }

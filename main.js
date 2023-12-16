@@ -12,11 +12,11 @@ $(document).ready(function(){
           $('header').removeClass('animateUP');
           $('.secondary-header-div').removeClass('animateUp2');
         }
-        if ($(this).scrollTop() >= 800) {
-          $('.secondary-header-div-a').css({color: '#000'})
-         } else {
-          $('.secondary-header-div-a').css({color: '#fff'})
-         }
+        // if ($(this).scrollTop() >= 800) {
+        //   $('.secondary-header-div-a').css({color: '#000'})
+        //  } else {
+        //   $('.secondary-header-div-a').css({color: '#fff'})
+        //  }
       });
 
   });
